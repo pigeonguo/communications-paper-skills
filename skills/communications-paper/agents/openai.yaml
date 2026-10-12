@@ -1,0 +1,13 @@
+interface:
+  display_name: Communications Paper
+  short_description: 通信论文故事线、写作、润色与审稿，面向 TWC/TCom/TIT 和 ICC/GLOBECOM
+  default_prompt: 请用 $communications-paper 检查这篇通信论文的故事线和证据，再修改指定章节。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
